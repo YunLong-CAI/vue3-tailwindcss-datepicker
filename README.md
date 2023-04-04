@@ -13,14 +13,12 @@ npm install simple-tailwind-ui
  
 ```
 // 全部引入
-import VueTailWindUI from 'vue-amazing-ui'
+import VueTailWindUI from 'simple-tailwind-ui'
  
 app.use(VueTailWindUI)
  
 // 按需引入
-import MyDatePicker from 'vue-amazing-ui'
-import 'vue-amazing-ui/dist/style.css'
- 
+import MyDatePicker from 'simple-tailwind-ui'
 app.use(MyDatePicker)
 ```
  
