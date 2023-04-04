@@ -12,7 +12,7 @@
     "lib": ["ESNext", "DOM"],
     "skipLibCheck": true,
     "noEmit": true,
-    "suppressImplicitAnyIndexErrors": true,		//允许字符串用作下标
+    // "suppressImplicitAnyIndexErrors": true,		//允许字符串用作下标
     "baseUrl": ".",			
     "paths": {					
       "@/*":[					

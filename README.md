@@ -1,6 +1,36 @@
 # vue3-tailwindcss-datepicker
 
-# Vue 3 + TypeScript + Vite
+<!-- 参考文档： http://markdown.p2hp.com/index.html -->
+# simple-tailwind-ui
+ 
+## 安装插件
+ 
+```
+npm install simple-tailwind-ui
+```
+ 
+## 引入并注册插件
+ 
+```
+// 全部引入
+import VueTailWindUI from 'vue-amazing-ui'
+ 
+app.use(VueTailWindUI)
+ 
+// 按需引入
+import MyDatePicker from 'vue-amazing-ui'
+import 'vue-amazing-ui/dist/style.css'
+ 
+app.use(MyDatePicker)
+```
+ 
+## 在项目中使用(示例)
+ 
+```
+<my-date-picker v-model="formData.date" placeholder="Pick a date" :readonly="false" :editable="false" :disabled="false" type="date" size="large" @change="inputDate" />
+```
+
+<!-- # Vue 3 + TypeScript + Vite
 
 This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
 
@@ -17,4 +47,4 @@ If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has a
 1. Disable the built-in TypeScript Extension
    1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
    2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+2. Reload the VSCode window by running `Developer: Reload Window` from the command palette. -->

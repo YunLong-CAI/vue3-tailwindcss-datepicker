@@ -659,8 +659,13 @@
   </div>
 </template>
 
-<script setup lang="ts">
+<script lang="ts">
+export default {
+  name: 'MyDatePicker'
+}
+</script>
 
+<script setup lang="ts">
 import { ref, computed, onMounted, watch, onUnmounted, nextTick, Directive } from 'vue'
 import { getYearScopeAndMonth, isNowMonth, getOffset, isScope, isMonthEquation, isMonthList, isChange, copy, getLastYear, getNowYearAndMonth, getLastMonth, isArray, isEquation, getVisibleDays, parsePropsValue, isWeekStartAndEnd, WeekStartAndEndScope, isDatesList, isThisMonth, isThisYear, formateDate, isToday, getYearWeek } from '@/utils/date'
 

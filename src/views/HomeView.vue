@@ -9,7 +9,7 @@
           <span
             class="block text-base mb-8 text-center"
           >Default</span>
-          <date-picker
+          <my-date-picker
             v-model="formData.date"
             placeholder="Pick a date"
             :readonly="false"
@@ -22,7 +22,7 @@
         </div>
         <div class="py-10 px-0 grow shrink basis-0 flex items-center flex-col">
           <span class="block text-base mb-8 text-center">Picker with quick options</span>
-          <date-picker
+          <my-date-picker
             v-model="formData.quick"
             placeholder="Pick a date"
             :readonly="false"
@@ -42,7 +42,7 @@
         <div class="grow shrink basis-0">
           <div class="py-10 px-0 grow shrink basis-0 flex items-center flex-col">
             <span class="block text-base mb-8 text-center">Week</span>
-            <date-picker
+            <my-date-picker
               v-model="week"
               placeholder="Pick a week"
               :readonly="false"
@@ -55,7 +55,7 @@
           </div>
           <div class="py-10 px-0 grow shrink basis-0 flex items-center flex-col">
             <span class="block text-base mb-8 text-center">Month</span>
-            <date-picker
+            <my-date-picker
               v-model="formData.month"
               placeholder="Pick a Month"
               :readonly="false"
@@ -70,7 +70,7 @@
         <div class="grow shrink basis-0">
           <div class="py-10 px-0 grow shrink basis-0 flex items-center flex-col">
             <span class="block text-base mb-8 text-center">Year</span>
-            <date-picker
+            <my-date-picker
               v-model="formData.year"
               placeholder="Pick a Year"
               :readonly="false"
@@ -84,7 +84,7 @@
           </div>
           <div class="py-10 px-0 grow shrink basis-0 flex items-center flex-col">
             <span class="block text-base mb-8 text-center">Dates</span>
-            <date-picker
+            <my-date-picker
               v-model="formData.dates"
               placeholder="Pick one or more dates"
               :readonly="false"
@@ -104,7 +104,7 @@
           <span
             class="block text-base mb-8 text-center"
           >Default</span>
-          <date-picker
+          <my-date-picker
             v-model="formData.daterange"
             placeholder="Pick a date"
             range-separator="To"
@@ -117,7 +117,7 @@
         </div>
         <div class="py-10 px-0 grow shrink basis-0 flex items-center flex-col">
           <span class="block text-base mb-8 text-center">Picker with quick options</span>
-          <date-picker
+          <my-date-picker
             v-model="formData.dateranges"
             placeholder="Pick a date"
             range-separator="To"
@@ -137,7 +137,7 @@
           <span
             class="block text-base mb-8 text-center"
           >Default</span>
-          <date-picker
+          <my-date-picker
             v-model="formData.monthrange"
             placeholder="Pick a date"
             range-separator="To"
@@ -150,7 +150,7 @@
         </div>
         <div class="py-10 px-0 grow shrink basis-0 flex items-center flex-col">
           <span class="block text-base mb-8 text-center">Picker with quick options</span>
-          <date-picker
+          <my-date-picker
             v-model="formData.monthranges"
             placeholder="Pick a date"
             range-separator="To"
@@ -218,7 +218,6 @@
 </template>
 
 <script lang="ts">
-
 import { defineComponent } from 'vue'
 export default defineComponent({
   name: 'HomeView'
@@ -227,7 +226,7 @@ export default defineComponent({
 </script>
 <script setup lang="ts">
 
-import datePicker from '@/components/datePicker.vue'
+// import datePicker from '@/components/super-ui/datePicker/datePicker.vue'
 
 import { ref } from 'vue'
 const week = ref(new Date())
