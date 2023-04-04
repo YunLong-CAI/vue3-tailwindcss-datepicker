@@ -66,7 +66,7 @@ const shortcuts = ref<Array<object>>([
   }
 ])
 ```
-![avatar](/src/assets/quick.png)
+![avatar](/public/quick.png)
 
 ####其他日期单位
 通过扩展基础的日期选择，可以选择周、月、年或多个日期
@@ -80,7 +80,7 @@ const shortcuts = ref<Array<object>>([
   size="large"
 />
 ```
-![avatar](/src/assets/week.png)
+![avatar](/public/week.png)
 
 ####选择一段时间
 在选择日期范围时，默认情况下左右面板会联动。 如果希望两个面板各自独立切换当前月份，可以使用 unlink-panels 属性解除联动。
@@ -100,11 +100,11 @@ const shortcuts = ref<Array<object>>([
 />
 
 ```
-![avatar](/src/assets/daterange.png)
+![avatar](/public/daterange.png)
 
 ####Attributes
-![avatar](/src/assets/Attributes.png)
+![avatar](/public/Attributes.png)
 ####Events
-![avatar](/src/assets/event.png)
+![avatar](/public/event.png)
 
 
