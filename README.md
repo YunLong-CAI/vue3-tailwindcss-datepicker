@@ -24,7 +24,7 @@ app.use(MyDatePicker)
  
 ## 在项目中使用(示例)
 
-####选择某一天
+#### 选择某一天
 以”日“为基本单位，基础的日期选择控件
 基本单位由 type 属性指定。 通过 shortcuts 配置快捷选项， 通过 disabledDate 函数，来设置禁用掉的日期。
  
@@ -68,7 +68,7 @@ const shortcuts = ref<Array<object>>([
 ```
 ![avatar](/public/quick.png)
 
-####其他日期单位
+#### 其他日期单位
 通过扩展基础的日期选择，可以选择周、月、年或多个日期
  
 ```
@@ -82,7 +82,7 @@ const shortcuts = ref<Array<object>>([
 ```
 ![avatar](/public/week.png)
 
-####选择一段时间
+#### 选择一段时间
 在选择日期范围时，默认情况下左右面板会联动。 如果希望两个面板各自独立切换当前月份，可以使用 unlink-panels 属性解除联动。
  
 ```
@@ -102,9 +102,9 @@ const shortcuts = ref<Array<object>>([
 ```
 ![avatar](/public/daterange.png)
 
-####Attributes
+#### Attributes
 ![avatar](/public/Attributes.png)
-####Events
+#### Events
 ![avatar](/public/event.png)
 
 
